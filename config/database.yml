@@ -1,0 +1,13 @@
+# specify which database and adapter to use for which environment
+
+development:
+  adapter: sqlite3
+  database: db/set-list-development
+
+test:
+  adapter: sqlite3
+  database: db/set-list-test
+
+production:
+  adapter: sqlite3
+  database: db/set-list-production
