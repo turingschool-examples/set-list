@@ -14,7 +14,7 @@ Dir.glob(File.join(APP_ROOT, 'app', 'models', '*.rb')).each { |file| require fil
 require File.join(APP_ROOT, 'config', 'database')
 
 # configure TaskManagerApp settings
-class FilmFile < Sinatra::Base
+class SetList < Sinatra::Base
   set :method_override, true
   set :root, APP_ROOT
   set :views, File.join(APP_ROOT, "app", "views")
