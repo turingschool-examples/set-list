@@ -3,5 +3,8 @@
     <li>Title: <%= song.title %></li>
     <li>Length: <%= song.length %></li>
     <li>Play Count: <%= song.play_count %></li>
+    <% if song.playlist %>
+    <li>Playlist Name: <%= song.playlist.name %></li>
+    <% end %>
   </ul>
 <% end %>
