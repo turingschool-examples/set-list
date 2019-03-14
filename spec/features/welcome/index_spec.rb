@@ -1,10 +1,14 @@
+
 =begin
-  As a visitor
-  When I visit the welcome page
-  Then I see a welcome message
+
+As a visitor
+When I visit the home page
+then I see a "welcome" message
+
 =end
 
-RSpec.describe 'welcome page' do
+
+RSpec.describe 'welcome index workflow' do
   context 'as a visitor' do
     it 'should show a welcome message' do
       visit '/'

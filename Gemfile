@@ -10,8 +10,8 @@ group :development, :test do
   gem 'tux'
   gem 'pry'
   gem 'rspec'
+  gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
   gem 'simplecov'
-  gem 'database_cleaner'
 end
